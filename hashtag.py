@@ -12,7 +12,6 @@ def hashtag():
     search_term = ""
     d = twitter.search(q=search_term, count=100)
     counter = 0
-    tweettext = []
 
     for tweet in d['statuses']:
         counter += 1
